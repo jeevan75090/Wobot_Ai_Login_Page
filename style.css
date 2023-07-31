@@ -50,8 +50,6 @@ p {
     align-items: center;
     justify-content: center;
     gap: 10px;
-}
-.text {
     margin: 0px 100px;
     text-align: center;
 }
@@ -98,7 +96,12 @@ input {
     border-radius: 2px;
     cursor: pointer;
 }
-.color-item {
+.location-item:active {
+    background-color: rgb(61, 61, 221);
+    color: white;
+}
+
+.color-item{
     background-color: rgb(61, 61, 221);
     color: white;
 }
